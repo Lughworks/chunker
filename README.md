@@ -147,7 +147,3 @@ Potential extensions for the add-on include:
 - Batch export helpers for FiveM-ready assets.
 - Metadata export for chunk manifests.
 - Row or region grouping for large map sets.[1][2]
-
-## Development notes
-
-The add-on follows Blender's standard add-on structure: metadata in `bl_info`, custom scene settings via `PropertyGroup`, user actions implemented as `Operator` classes, and a sidebar UI built with a `Panel`. These are the core building blocks Blender exposes for Python add-on development.[1][2]
